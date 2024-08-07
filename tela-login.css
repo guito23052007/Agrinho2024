@@ -47,3 +47,33 @@ h4 {
     color: #f5f5f5c7;
 }
 
+@media (max-width: 868px) {
+    .login {
+        text-align: center;
+        margin-top: 138px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+    }
+    img {
+        width: 285px;
+        height: 171px;
+        border-radius: 10px;
+    }
+    input {
+        border-radius: 8px;
+        border: none;
+        width: 284px;
+        height: 30px;
+        padding-left: 15px;
+    }
+    button {
+        cursor: pointer;
+        background-color: aquamarine;
+        border-radius: 10px;
+        border: none;
+        width: 221px;
+        height: 30px;
+        font-weight: 750;
+    }
+}
